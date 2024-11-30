@@ -1,0 +1,12 @@
+[package]
+name = "first_project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8"        # For random number generation
+statrs = "0.16"     # For statistical distributions
+plotters = { version = "0.3", features = ["bitmap_backend"] }
+rand_distr = "0.4"
